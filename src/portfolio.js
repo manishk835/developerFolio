@@ -23,7 +23,7 @@ const greeting = {
   username: "Manish",
   title: "Hi, I'm Manish",
   subTitle: emoji(
-    "BCA student from Manipal University Jaipur and a Full Stack Web Developer who builds web applications using HTML, CSS, JavaScript, React, Next.js and Node.js."
+    "BCA student from Manipal University Jaipur and a Full Stack Web Developer focused on building modern web applications using JavaScript, React, Next.js and Node.js."
   ),
   resumeLink: "",
   displayGreeting: true
