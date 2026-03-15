@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "BCA student from Manipal University Jaipur and a Full Stack Web Developer focused on building modern web applications using JavaScript, React, Next.js and Node.js."
   ),
-  resumeLink: "",
+  resumeLink: "/resume.pdf",
   displayGreeting: true
 };
 
@@ -34,7 +34,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/manishk835",
   linkedin: "",
-  gmail: "",
+  gmail: "manishkumar.dev08@gmail.com",
   gitlab: "",
   facebook: "",
   medium: "",
@@ -46,12 +46,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "Full Stack Web Developer focused on modern web technologies",
+  subTitle: "Full Stack Web Developer",
 
   skills: [
-    emoji("⚡ Build responsive websites using HTML, CSS and JavaScript"),
-    emoji("⚡ Develop full stack web apps using React, Next.js and Node.js"),
-    emoji("⚡ Create REST APIs and connect MongoDB databases")
+    emoji("⚡ Build responsive web interfaces using HTML, CSS and JavaScript"),
+    emoji("⚡ Develop modern web applications using React and Next.js"),
+    emoji("⚡ Build backend APIs using Node.js and Express"),
+    emoji("⚡ Work with MongoDB databases and REST APIs")
   ],
 
   softwareSkills: [
@@ -78,10 +79,10 @@ const educationInfo = {
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Bachelor of Computer Applications (BCA)",
       duration: "2024 - Present",
-      desc: "Currently pursuing BCA through distance learning and focusing on Web Development.",
+      desc: "Currently pursuing BCA through distance learning while focusing on web development.",
       descBullets: [
         "Learning Full Stack Web Development",
-        "Building personal projects and portfolio"
+        "Building real world web projects"
       ]
     }
   ]
@@ -126,9 +127,32 @@ const openSource = {
 /* Projects */
 
 const bigProjects = {
-  display: false
+  display: true
 };
-
+projects: [
+  {
+    projectName: "Ecommerce Website",
+    projectDesc:
+      "Full stack ecommerce web application with authentication and product management.",
+    footerLink: [
+      {
+        name: "GitHub",
+        url: "https://github.com/manishk835"
+      }
+    ]
+  },
+  {
+    projectName: "Authentication System",
+    projectDesc:
+      "Secure login and registration system using Node.js, JWT and MongoDB.",
+    footerLink: [
+      {
+        name: "GitHub",
+        url: "https://github.com/manishk835"
+      }
+    ]
+  }
+]
 /* Achievements */
 
 const achievementSection = {
@@ -164,10 +188,10 @@ const resumeSection = {
 /* Contact */
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle: "If you want to discuss a project or opportunity feel free to contact me.",
-  number: "",
-  email_address: ""
+  title: emoji("Contact Me"),
+  subtitle: "If you have an opportunity or project feel free to contact me.",
+  number: "8302958489",
+  email_address: "manishkumar.dev08@gmail.com"
 };
 
 /* Twitter */
