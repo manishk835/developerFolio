@@ -117,15 +117,18 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Web Developer Intern",
-      company: "Your Internship Company",
+      role: "MERN Stack Developer Intern",
+      company: "JSB Global Infotech Pvt. Ltd.",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "6 Month Internship",
-      desc: "Worked on building and improving web applications using modern web technologies.",
+      date: "Jun 2025 – Nov 2025",
+      desc: "Worked as a MERN Stack Developer Intern contributing to both frontend and backend development of a web platform.",
       descBullets: [
-        "Developed responsive UI using HTML, CSS and JavaScript",
-        "Worked with React.js components and frontend features",
-        "Collaborated on backend APIs using Node.js"
+        "Developed multiple responsive pages such as News, Reviews, Videos, Mileage and Colours using reusable components.",
+        "Integrated REST APIs to display live car data and improve platform performance.",
+        "Implemented city and brand based search filters and city selector features.",
+        "Fixed UI and navigation issues and improved overall user experience.",
+        "Implemented OTP based login verification for secure authentication.",
+        "Worked on debugging, code optimization and maintaining clean codebase."
       ]
     }
   ]
