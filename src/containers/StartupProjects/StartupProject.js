@@ -1,3 +1,4 @@
+// src/containers/StartupProjects/StartupProject.js
 import React, {useContext} from "react";
 import "./StartupProjects.scss";
 import {bigProjects} from "../../portfolio";

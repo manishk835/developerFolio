@@ -1,3 +1,4 @@
+// src/containers/Main.js
 import React, {useEffect, useState} from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
