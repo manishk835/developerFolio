@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Full Stack Web Developer skilled in building modern web applications using HTML, CSS, JavaScript, React, Next.js, Node.js and MongoDB. Currently pursuing BCA from Manipal University Jaipur."
   ),
-  resumeLink: "/resume.pdf",
+  resumeLink: "/resume-new.pdf",
   displayGreeting: true
 };
 
@@ -120,7 +120,7 @@ const workExperiences = {
     {
       role: "MERN Stack Developer Intern",
       company: "JSB Global Infotech Pvt. Ltd.",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/jsb.png"),
       date: "Jun 2025 – Nov 2025",
       desc:
         "Worked as a MERN Stack Developer Intern contributing to both frontend and backend development of a web platform.",

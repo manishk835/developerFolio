@@ -7,7 +7,6 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  openSource,
   resumeSection
 } from "../../portfolio";
 
@@ -15,7 +14,6 @@ function Header() {
   const {isDark} = useContext(StyleContext);
 
   const viewExperience = workExperiences.display;
-  const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewResume = resumeSection.display;
 
@@ -35,7 +33,6 @@ function Header() {
         </label>
 
         <ul className={isDark ? "dark-menu menu" : "menu"}>
-
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
@@ -48,11 +45,9 @@ function Header() {
             </li>
           )}
 
-          {viewOpenSource && (
-            <li>
-              <a href="#opensource">Projects</a>
-            </li>
-          )}
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
 
           {viewResume && (
             <li>
@@ -67,7 +62,6 @@ function Header() {
           <li>
             <ToggleSwitch />
           </li>
-
         </ul>
       </header>
     </Headroom>
