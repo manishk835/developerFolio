@@ -148,34 +148,113 @@ const openSource = {
 const bigProjects = {
   title: "Projects",
   subtitle: "Some projects that I have built",
-
   projects: [
     {
-      projectName: "Ecommerce Website",
+      projectName: "CarBike4u Platform",
       projectDesc:
-        "Full stack ecommerce web application with authentication, product management and secure user login.",
+        "An internship project built as a responsive web platform with modern UI and dynamic automotive content.",
       footerLink: [
         {
-          name: "GitHub",
-          url: "https://github.com/manishk835"
+          name: "Live Demo",
+          url: "https://www.carbike4u.com"
         }
       ]
     },
     {
-      projectName: "Authentication System",
+      projectName: "ToolPro India",
       projectDesc:
-        "Secure authentication system using Node.js, JWT and MongoDB with login and registration functionality.",
+        "A tools and calculators website built for utility-based browsing, optimized for deployment and AdSense readiness.",
       footerLink: [
         {
+          name: "Live Demo",
+          url: "https://toolpro-india.vercel.app"
+        },
+        {
           name: "GitHub",
-          url: "https://github.com/manishk835"
+          url: "https://github.com/manishk835/toolpro-india"
+        }
+      ]
+    },
+    {
+      projectName: "Bantia Furniture Ecommerce",
+      projectDesc:
+        "A responsive furniture ecommerce website focused on product browsing and clean shopping experience.",
+      footerLink: [
+        {
+          name: "Live Demo",
+          url: "https://bantia-furnitures-ecommerce.vercel.app"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/manishk835/Bantia-Furnitures-Ecommerce"
+        }
+      ]
+    },
+    {
+      projectName: "ILU Construction Website",
+      projectDesc:
+        "A construction website built with React, Bootstrap and React Router with Home and Contact sections.",
+      footerLink: [
+        {
+          name: "Live Demo",
+          url: "https://ilu-pi.vercel.app"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/manishk835/ilu"
+        }
+      ]
+    },
+    {
+      projectName: "Clap Color Change",
+      projectDesc:
+        "A small interactive frontend project demonstrating a simple UI effect and deployment workflow.",
+      footerLink: [
+        {
+          name: "Live Demo",
+          url: "https://clap-color-change.vercel.app"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/manishk835/clap-color-change"
         }
       ]
     }
   ],
-
   display: true
 };
+
+// const bigProjects = {
+//   title: "Projects",
+//   subtitle: "Some projects that I have built",
+
+//   projects: [
+//     {
+//       projectName: "Ecommerce Website",
+//       projectDesc:
+//         "Full stack ecommerce web application with authentication, product management and secure user login.",
+//       footerLink: [
+//         {
+//           name: "GitHub",
+//           url: "https://github.com/manishk835"
+//         }
+//       ]
+//     },
+//     {
+//       projectName: "Authentication System",
+//       projectDesc:
+//         "Secure authentication system using Node.js, JWT and MongoDB with login and registration functionality.",
+//       footerLink: [
+//         {
+//           name: "GitHub",
+//           url: "https://github.com/manishk835"
+//         }
+//       ]
+//     }
+//   ],
+
+//   display: true
+// };
 
 /* Achievements */
 
