@@ -158,36 +158,47 @@ const openSource = {
 };
 
 /* Projects */
+/* Projects */
 const bigProjects = {
   title: "Projects",
   subtitle: "Some projects that I have built",
   projects: [
     {
-      projectName: "Ecommerce Website",
+      projectName: "RK Marketplace",
       projectDesc:
-        "Full stack ecommerce web application with authentication, product management and secure user login.",
+        "A modern marketplace web application built with Next.js, focused on scalable product and seller experiences.",
       footerLink: [
         {
           name: "GitHub",
-          url: "https://github.com/manishk835"
+          url: "https://github.com/manishk835/newRk"
         }
       ]
     },
     {
-      projectName: "Authentication System",
+      projectName: "ToolPro India",
       projectDesc:
-        "Secure authentication system using Node.js, JWT and MongoDB with login and registration functionality.",
+        "A web project developed for ToolPro India with a modern responsive interface.",
       footerLink: [
         {
           name: "GitHub",
-          url: "https://github.com/manishk835"
+          url: "https://github.com/manishk835/toolpro-india"
+        }
+      ]
+    },
+    {
+      projectName: "Portfolio Frontend",
+      projectDesc:
+        "A responsive frontend portfolio project showcasing modern web development skills.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/manishk835/portfolio-frontend"
         }
       ]
     }
   ],
   display: true
 };
-
 /* Achievements */
 const achievementSection = {
   display: false
